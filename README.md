@@ -9,7 +9,7 @@ An **organizing repo** for the In Process project. It is a thin shell whose only
 | `web/`     | [in_process](https://github.com/sweetmantech/in_process)                    | Client app                               |
 | `api/`     | [In-Process-API](https://github.com/sweetmantech/In-Process-API)            | Backend API                              |
 | `tasks/`   | [In-Process-Tasks](https://github.com/sweetmantech/In-Process-Tasks)        | Background jobs / Trigger.dev tasks      |
-| `indexer/` | [Coins-Beneficiaries-Indexer](https://github.com/sweetmantech/Coins-Beneficiaries-Indexer) | On-chain indexer                         |
+| `indexer/` | [Coins-Beneficiaries-Indexer](https://github.com/sweetmantech/Coins-Beneficiaries-Indexer) | Onchain indexer                         |
 | `docs/`    | [docs](https://github.com/sweetmantech/docs)                                | Public documentation                     |
 
 ## How this repo is used
