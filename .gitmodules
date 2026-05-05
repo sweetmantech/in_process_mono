@@ -1,0 +1,12 @@
+[submodule "in_process"]
+	path = in_process
+	url = https://github.com/sweetmantech/in_process
+[submodule "In-Process-API"]
+	path = In-Process-API
+	url = https://github.com/sweetmantech/In-Process-API
+[submodule "In-Process-Tasks"]
+	path = In-Process-Tasks
+	url = https://github.com/sweetmantech/In-Process-Tasks
+[submodule "docs"]
+	path = docs
+	url = https://github.com/sweetmantech/docs
