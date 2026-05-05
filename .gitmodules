@@ -10,3 +10,6 @@
 [submodule "docs"]
 	path = docs
 	url = https://github.com/sweetmantech/docs
+[submodule "indexer"]
+	path = indexer
+	url = https://github.com/sweetmantech/Coins-Beneficiaries-Indexer
