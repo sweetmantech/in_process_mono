@@ -4,13 +4,14 @@ An **organizing repo** for the In Process project. It is a thin shell whose only
 
 ## Submodules
 
-| Path       | Source repo                                                                 | Purpose                                  |
-| ---------- | --------------------------------------------------------------------------- | ---------------------------------------- |
-| `web/`     | [in_process](https://github.com/sweetmantech/in_process)                    | Client app                               |
-| `api/`     | [In-Process-API](https://github.com/sweetmantech/In-Process-API)            | Backend API                              |
-| `tasks/`   | [In-Process-Tasks](https://github.com/sweetmantech/In-Process-Tasks)        | Background jobs / Trigger.dev tasks      |
-| `indexer/` | [Coins-Beneficiaries-Indexer](https://github.com/sweetmantech/Coins-Beneficiaries-Indexer) | Onchain indexer                         |
-| `docs/`    | [docs](https://github.com/sweetmantech/docs)                                | Public documentation                     |
+| Path        | Source repo                                                                 | Purpose                                  |
+| ----------- | --------------------------------------------------------------------------- | ---------------------------------------- |
+| `web/`      | [in_process](https://github.com/sweetmantech/in_process)                    | Client app                               |
+| `api/`      | [In-Process-API](https://github.com/sweetmantech/In-Process-API)            | Backend API                              |
+| `database/` | [in_process_database](https://github.com/sweetmantech/in_process_database)  | Supabase migrations & RPCs               |
+| `indexer/`  | [Coins-Beneficiaries-Indexer](https://github.com/sweetmantech/Coins-Beneficiaries-Indexer) | Onchain indexer                         |
+| `docs/`     | [docs](https://github.com/sweetmantech/docs)                                | Public documentation                     |
+| `skills/`   | [in_process_skills](https://github.com/sweetmantech/in_process_skills)      | Agent skills for the In Process dev loop |
 
 ## How this repo is used
 
@@ -28,9 +29,10 @@ The day-to-day code work does **not** happen here. It happens in the submodule r
 | ------------------------------------------------------- | -------------------------------- |
 | Change the client app                                   | `sweetmantech/in_process`        |
 | Change the API                                          | `sweetmantech/In-Process-API`    |
-| Change a background task                                | `sweetmantech/In-Process-Tasks`  |
+| Change the database schema                              | `sweetmantech/in_process_database` |
 | Change the indexer                                      | `sweetmantech/Coins-Beneficiaries-Indexer` |
 | Change the docs                                         | `sweetmantech/docs`              |
+| Change an agent skill                                   | `sweetmantech/in_process_skills` |
 | Add a new codebase to the workspace                     | **here** (`in_process_mono`)     |
 | Bump a submodule pointer to a newer commit              | **here** (`in_process_mono`)     |
 
